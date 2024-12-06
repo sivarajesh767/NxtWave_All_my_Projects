@@ -4,7 +4,7 @@ import SideBar from '../SideBar'
 import VideoItemBody from '../VideoItemBody'
 import './index.css'
 
-class Trending extends Component {
+class VideoItemDetails extends Component {
   render() {
     const {match} = this.props
     const {params} = match
@@ -24,4 +24,4 @@ class Trending extends Component {
     )
   }
 }
-export default Trending
+export default VideoItemDetails
